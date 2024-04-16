@@ -281,9 +281,97 @@
                                 Email support,
                                 Help center access
                             </p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Купить</button>
+                            <button type="button" class="w-100 btn btn-lg btn btn-success">Купить</button>
                         </div>
                     </div>
+                </div>
+                <div class="col-4">
+                    <form>
+                      <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email адрес">
+                      </div>
+                      <div class="mb-3">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
+                      <div id="emailHelp" class="form-text">Мы никогда не делимся вашими данными.</div>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+                <p>
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                    FAQ
+                  </button>
+                </p>
+                <div style="min-height: 120px;">
+                  <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                    <div class="card card-body" style="width: 300px;">
+                      Как купить?
+                    </div>
+                  </div>
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                    <div class="card card-body" style="width: 300px;">
+                      Как доставить?
+                    </div>
+                  </div>
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                    <div class="card card-body" style="width: 300px;">
+                      Какая гарантия?
+                    </div>
+                  </div>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Номер</th>
+                          <th scope="col">Название товара</th>
+                          <th scope="col">Цена за штуку (руб)</th>
+                          <th scope="col">Количество</th>
+                          <th scope="col">Итоговая сумма</th>
+                          <th scope="col">Статус заказа</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Телефон 1</td>
+                          <td>20000</td>
+                          <td>1шт</td>
+                          <td>20000</td>
+                          <td>
+                              <div class="alert alert-primary" role="alert">Новый</div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Часы</td>
+                          <td>4990</td>
+                          <td>2шт</td>
+                          <td>9980</td>
+                          <td>
+                              <div class="alert alert-warning" role="alert">Обработка</div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Телефон 2</td>
+                          <td>15000</td>
+                          <td>1шт</td>
+                          <td>15000</td>
+                          <td>
+                              <div class="alert alert-success" role="alert">Обработан</div>
+                          </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td>Лампа для потолка</td>
+                            <td>1390</td>
+                            <td>5шт</td>
+                            <td>6950</td>
+                            <td>
+                                <div class="alert alert-danger" role="alert">Отмена</div>
+                            </td>
+                        </tr>
+                      </tbody>
+                    </table>
                 </div>
             </div>
         </main>
